@@ -1,0 +1,12 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/sergystepanov/cosmoport-core.git
+[submodule "timetable"]
+	path = timetable
+	url = https://github.com/sergystepanov/cosmoport-timetable.git
+[submodule "gate"]
+	path = gate
+	url = https://github.com/sergystepanov/cosmoport-gate.git
+[submodule "core-control"]
+	path = core-control
+	url = https://github.com/sergystepanov/cosmoport-core-control.git
