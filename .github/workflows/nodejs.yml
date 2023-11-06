@@ -17,14 +17,14 @@ jobs:
     runs-on: ${{ matrix.os }}
     defaults:
       run:
-        working-directory: ./${{ matrix.module }}
+        working-directory: "./${{ matrix.module }}"
 
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          cache-dependency-path: ./${{ matrix.module }}/package-lock.json
+          cache-dependency-path: "./${{ matrix.module }}/package-lock.json"
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: |
