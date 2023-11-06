@@ -7,4 +7,5 @@ The main Cosmoport project entry point
 
 ```
 git submodule update --init --recursive
+git submodule update --remote
 ```
