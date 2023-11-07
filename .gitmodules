@@ -10,3 +10,6 @@
 [submodule "core-control"]
 	path = core-control
 	url = https://github.com/sergystepanov/cosmoport-core-control.git
+[submodule "core-api-client"]
+	path = core-api-client
+	url = https://github.com/sergystepanov/cosmoport-core-api-client.git
